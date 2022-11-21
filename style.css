@@ -41,6 +41,9 @@ a{
 .section-title span{
     color: red;
 }
+.project-item , .btn{
+    cursor: pointer;
+}
 
 /* header section */
 #header{
