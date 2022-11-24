@@ -273,7 +273,7 @@ a{
     text-align: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 #services .service-top{
     width: 500px;
@@ -390,13 +390,14 @@ a{
     border-radius: 10px;
 }
 #projects .project-info{
+    display: flex;
     margin-top: 25px;
     
     padding: 30px;
     flex-basis: 50%;
     background-color: white;
     height: 100%;
-    display: flex;
+    width: 100%;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
@@ -409,7 +410,7 @@ a{
     
 }
 #projects .project-info h2{
-    font-size: 1.8rem;
+    font-size: 2.6rem;
     font-weight: 300;
     margin-top: 10px;
     color: crimson;
@@ -421,6 +422,7 @@ a{
 #projects .project-img img{
     flex-basis: 50%;
     height: 425px;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -709,6 +711,7 @@ a{
         margin-top: 160px;
         margin-bottom: -40px;
         padding: 30px;
+        width: 100%;
         flex-basis: 50%;
         background-color: white;
         height: 100%;
@@ -830,7 +833,7 @@ a{
     }
     #projects .project-img img{
         flex-basis: 50%;
-        height: 316px;
+        height: 296px;
         overflow: hidden;
         position: relative;
     }
